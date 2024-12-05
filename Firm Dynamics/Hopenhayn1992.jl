@@ -255,8 +255,5 @@ function solve_model!(model::Hopenhayn1992)
     println("\nTotal Run Time: $(t1 - t0) seconds")
 end
 
-# # Create an instance of the model
-# model = H92(Nz=20, ρ=0.9, σ_ϵ=0.2, μ_s=1.2)
-
-# # Solve the model
+# model = Hopenhayn1992()
 # @time solve_model!(model)
